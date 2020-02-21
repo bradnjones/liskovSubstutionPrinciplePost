@@ -16,13 +16,8 @@ class GoodSquareTest {
 	}
 
 	@Test
-	void testArea() {
+	void testAreaCalculation() {
 		Assertions.assertEquals(16, shape.area());
-	}
-
-	@Test
-	void testConstructor() {
-		Assertions.assertEquals(4, goodSquare.getSideLength());
 	}
 
 	@Test

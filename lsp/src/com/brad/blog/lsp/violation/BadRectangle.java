@@ -10,20 +10,20 @@ public class BadRectangle {
 		this.height = height;
 	}
 
-	public void changeWidth(int aNewWidth) {
-		this.width = aNewWidth;
-	}
-
-	public void changeHeight(int aNewHeight) {
-		this.height = aNewHeight;
-	}
-
 	public int getWidth() {
 		return width;
 	}
 
 	public int getHeight() {
 		return height;
+	}
+
+	public void changeWidth(int aNewWidth) {
+		this.width = aNewWidth;
+	}
+
+	public void changeHeight(int aNewHeight) {
+		this.height = aNewHeight;
 	}
 
 	public int area() {

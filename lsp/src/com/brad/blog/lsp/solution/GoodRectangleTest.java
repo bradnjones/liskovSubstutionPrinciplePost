@@ -16,26 +16,8 @@ class GoodRectangleTest {
 	}
 
 	@Test
-	void testArea() {
+	void testAreaCalculation() {
 		Assertions.assertEquals(8, shape.area());
-	}
-
-	@Test
-	void testConstructor() {
-		Assertions.assertEquals(4, goodRectangle.getWidth());
-		Assertions.assertEquals(2, goodRectangle.getHeight());
-	}
-
-	@Test
-	void testChangeWidth() {
-		goodRectangle.changeWidth(8);
-		Assertions.assertEquals(8, goodRectangle.getWidth());
-	}
-
-	@Test
-	void testChangeHeight() {
-		goodRectangle.changeHeight(8);
-		Assertions.assertEquals(8, goodRectangle.getHeight());
 	}
 
 	@Test

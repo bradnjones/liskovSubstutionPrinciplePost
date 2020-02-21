@@ -7,15 +7,15 @@ public class BadSquare extends BadRectangle {
 	}
 
 	@Override
-	public void changeWidth(int aNewWidth) {
-		this.width = aNewWidth;
-		this.height = aNewWidth;
+	public void changeWidth(int aNewSide) {
+		this.width = aNewSide;
+		this.height = aNewSide;
 	}
 
 	@Override
-	public void changeHeight(int aNewHeight) {
-		this.width = aNewHeight;
-		this.height = aNewHeight;
+	public void changeHeight(int aNewSide) {
+		this.width = aNewSide;
+		this.height = aNewSide;
 	}
 
 	@Override
