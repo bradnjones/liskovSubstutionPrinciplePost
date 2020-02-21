@@ -2,7 +2,6 @@ package com.brad.blog.lsp.solution;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 class GoodSquareTest {
@@ -16,7 +15,6 @@ class GoodSquareTest {
 		goodSquare = new GoodSquare(4);
 	}
 
-	@Tag("IShape area calculation polymorphism")
 	@Test
 	void testArea() {
 		Assertions.assertEquals(16, shape.area());
