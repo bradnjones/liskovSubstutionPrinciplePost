@@ -23,7 +23,7 @@ class BadRectangleTest {
 		r.changeWidth(8);
 		Assertions.assertEquals(8, r.getWidth());
 
-		// Confirm that the height is not changed
+		// Confirm that the Width has not changed
 		Assertions.assertEquals(2, r.getHeight());
 	}
 
@@ -32,7 +32,7 @@ class BadRectangleTest {
 		r.changeHeight(6);
 		Assertions.assertEquals(6, r.getHeight());
 
-		// Confirm that the height is not changed
+		// Confirm that the Height has not changed
 		Assertions.assertEquals(4, r.getWidth());
 	}
 

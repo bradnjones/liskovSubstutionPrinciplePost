@@ -18,9 +18,4 @@ public class BadSquare extends BadRectangle {
 		this.height = aNewSide;
 	}
 
-	@Override
-	public int area() {
-		return this.width * this.height;
-	}
-
 }

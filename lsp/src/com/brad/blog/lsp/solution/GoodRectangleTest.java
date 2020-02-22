@@ -12,7 +12,7 @@ class GoodRectangleTest {
 	@BeforeEach
 	void setupTest() {
 		shape = new GoodRectangle(4, 2);
-		goodRectangle = new GoodRectangle(4, 2);
+		goodRectangle = (GoodRectangle) shape;
 	}
 
 	@Test
@@ -25,7 +25,7 @@ class GoodRectangleTest {
 		goodRectangle.changeWidth(8);
 		Assertions.assertEquals(8, goodRectangle.getWidth());
 
-		// Confirm that the height is not changed
+		// Confirm that the width is not changed
 		Assertions.assertEquals(2, goodRectangle.getHeight());
 	}
 

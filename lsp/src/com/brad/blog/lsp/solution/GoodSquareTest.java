@@ -12,7 +12,7 @@ class GoodSquareTest {
 	@BeforeEach
 	void setupTest() {
 		shape = new GoodSquare(4);
-		goodSquare = new GoodSquare(4);
+		goodSquare = (GoodSquare) shape;
 	}
 
 	@Test
